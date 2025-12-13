@@ -1,0 +1,23 @@
+.water{
+    width: 200px;
+    height: 200px;
+
+}
+.card{
+    border: 2px solid black;
+    width: 300px;
+    padding: 30px;
+     text-align: center; 
+}
+.title{
+    text-align: center;
+}
+.but{
+    width: 200px;
+   
+    display: block;
+    color: darkblue;
+}
+.par{
+    color: red;
+}
