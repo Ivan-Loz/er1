@@ -1,0 +1,18 @@
+*{
+    margin: 0x;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(59, 145, 156);
+    padding: 20px 200px;
+}
+.page{
+    max-width: 1200px;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+.head{
+    background-color: rgb(39, 163, 126);
+    padding: 20px 50px;
+}

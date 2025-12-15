@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(64, 46, 116);
+    padding: 50px;
+}
+hr {
+    margin: 30px 0px;
+}
+svg{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+}
+.rect{
+    x: 100px;
+    y: 50px;
+    width: 300px;
+    height: 250px;
+    fill: rgb(37, 39, 109);
+}
+.kryg{
+    cx: 50%;
+    cy: 50%;
+    r: 200px;
+    fill: rgb(116, 42, 235);
+    stroke-width: 5px;
+    stroke: black;
+}
+.el {
+    cx: 50%;
+    cy: 50%;
+    rx: 150px;
+    ry: 50px;
+    fill: rgb(28, 21, 129);
+}
+.text {
+    font-size: 24px;
+}

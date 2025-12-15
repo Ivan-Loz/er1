@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(58, 152, 196);
+    padding: 50px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+}
+.icon:hover{
+    fill: rgb(33, 51, 102);
+}

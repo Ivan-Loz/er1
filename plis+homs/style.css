@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 34px;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+    background-color: rgb(54, 54, 160);
+}
+.btn{
+    font-size: 34px;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+}
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(98, 92, 175);
+    padding: 15px;
+    /*transform: translate(1000px,0px);*/
+    transition: 0.6s;
+    /*transform-origin: right bottom;*/
+    transform-origin: right;
+}
+.btn:hover ~ .block{
+    /*transform: translate(1000px,400px);*/
+   /* transform: rotate(2.5turn);*/
+    /*transform: scale(0);*/
+    /*transform: skew(30deg,30deg);*/
+    /*transform: translate(300px, 450px) rotate(1.5turn) scale(0.5);*/
+    /*transform: perspective(1000px) rotateX(45deg);*/
+    animation: Homs 10s;
+}
+@keyframes Homs {
+    0%{
+        transform: translate(0px,0px);
+    }
+    20.333%{
+    transform: translate(1000px, 0px);
+    }
+    44.4%{
+    transform: translate(1000px, 400px);
+    }
+    75%{
+        transform: translate(0px, 400px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}

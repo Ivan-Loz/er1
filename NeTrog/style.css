@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.title{
+    margin: 15px 0px;
+    font-family: "Lobster", sans-serif;
+    color: aliceblue;
+}
+body{
+    background-color: black;
+    padding: 50xp;
+    margin: 50px;
+}
+.title {
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+h2{
+    margin: 15px 0px;
+    font-family: "Lobster", sans-serif;
+    color: aliceblue;
+}
+.Sp{
+    border: 3px solid black;
+    padding: 70px;
+    width: 400px;
+    background-color: slategray;
+    list-style-type: upper-roman;
+
+}
+.Sp li{
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    background-color: aliceblue;
+    margin: 10px 0px;
+    font-size: 40px;
+}
+.goida{
+      font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: aliceblue;
+}
+.ins{
+    border: 3px solid slategray;
+    padding: 70px;
+    width: 400px;
+    background-color: slategray;
+    list-style-type: upper-roman;
+
+}
+.ins li{
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    background-color: aliceblue;
+    margin: 10px 0px;
+    font-size: 40px;
+    list-style-position: inside;
+    list-style-type: none;
+    list-style-image: url(./tal.png);
+}
+.Havca{
+    background-color: slategray;
+    padding: 70px;
+    width: 100px;
+}
+.Havca li{
+    margin: 15px 0px;
+    font-family: "Lobster", sans-serif;
+    color: aliceblue;
+
+}

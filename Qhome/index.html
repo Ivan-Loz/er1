@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <h1 class="title">Заказ у Дуба</h1>
+   <hr>
+
+    <form class="form">
+        <fieldset>
+            <legend>Выбор желудей</legend>
+            <label class="">
+                <input type="checkbox" name="sok">
+                Берёзовый сок
+                количество:
+                <input type="number" name="kl">
+            </label>
+            <label class="">
+                <input type="checkbox" name="kor">
+                Кора Ели
+            </label>
+            <label class="">
+                <input type="checkbox" name="juk" checked>
+                Жуки из дуба
+            </label>
+            <label class="">
+                <input type="checkbox" name="list">
+                Листва
+            </label>
+            <label class="">
+                <input type="checkbox" name="jatlis">
+                Жареная листва
+            </label>
+        </fieldset> 
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quisquam similique delectus iusto quae voluptates ipsum officia eveniet molestias aperiam soluta, vero illum accusantium ducimus? Id dolor nobis consectetur quaerat doloribus odit totam!</p>
+        <label >
+            <input type="checkbox" name="da" required>
+            Я отдаю деньги дубу!
+        </label>
+        <fieldset>
+            <legend>Выбор стульев</legend>
+            <label >
+                <input type="radio" name="styl" value="el">
+                Из ели
+            </label>
+            <label >
+                <input type="radio" name="styl" value="dyb">
+                Из дуба
+            </label>
+            <label >
+                <input type="radio"name="styl" value="berez">
+                Из берёзы
+            </label>
+            <label >
+                <input type="radio"name="styl" value="aka">
+                Из акации
+            </label>
+        </fieldset>
+        <hr>
+        <label >
+            Когда?:
+            <input type="datetime-local" name="date" required>
+        </label>
+        <select name="des">
+            <option value="mor" selected>Доброжка</option>
+            <option value="tort">Тортошка</option>
+            <option value="keks">Кейкси</option>
+            <option value="neznay">Крутой Джас</option>
+        </select>
+        <input type="file" multiple name="fail">
+        <textarea name="ots" ></textarea>
+        <button class="btn" type="submit">Попросить</button>
+    </form>
+
+</body>
+</html>
