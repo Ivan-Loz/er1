@@ -1,0 +1,22 @@
+*{
+    margin: 0x;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(67, 24, 134, 0.774);
+    padding: 10px 20px;
+}
+.block{
+    background-color: rgb(62, 150, 81);
+    width: 800px;
+    height: 800px;
+    position: relative;
+}
+.box{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    
+}
