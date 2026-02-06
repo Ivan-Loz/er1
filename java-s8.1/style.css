@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(67, 24, 134, 0.774);
+}
+.block{
+    height: 100vh;
+}
+.b1{
+     background-color: rgb(69, 15, 85);
+}
+.b2{
+     background-color: rgb(212, 73, 189);
+}
+.b3{
+     background-color: rgb(161, 15, 113);
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 50px;
+}
